@@ -134,7 +134,7 @@ class CategorySection extends StatelessWidget {
             ),
           ),
           SizedBox(
-            height: 190, // Reduced height to prevent overflow
+            height: 190,
             child: ListView.builder(
               scrollDirection: Axis.horizontal,
               itemCount: category.videos.length,
@@ -178,7 +178,7 @@ class VideoThumbnail extends StatelessWidget {
               child: CachedNetworkImage(
                 imageUrl: video.thumbnail,
                 width: 120,
-                height: 140, // Reduced height to prevent overflow
+                height: 140, 
                 fit: BoxFit.cover,
                 placeholder: (context, url) => Container(
                   width: 120,
@@ -215,7 +215,7 @@ class VideoThumbnail extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 6), // Reduced spacing
+            SizedBox(height: 6), 
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -230,7 +230,7 @@ class VideoThumbnail extends StatelessWidget {
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                   ),
-                  SizedBox(height: 2), // Reduced spacing
+                  SizedBox(height: 2),
                   Flexible(
                     child: Row(
                       children: [

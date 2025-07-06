@@ -19,14 +19,12 @@ class VideoPlayerController extends GetxController {
   void onInit() {
     super.onInit();
 
-    // Get arguments from navigation
     final arguments = Get.arguments as Map<String, dynamic>;
     videos.value = arguments['videos'] as List<Video>;
     currentIndex.value = arguments['currentIndex'] as int;
 
     pageController = PreloadPageController(initialPage: currentIndex.value);
 
-    // Initialize video player
     initializePlayer();
   }
 
@@ -108,7 +106,6 @@ class VideoPlayerController extends GetxController {
         } else if (event.betterPlayerEventType ==
             BetterPlayerEventType.exception) {
           print('Video player error: ${event.parameters}');
-          // Handle error - you could show a retry button or skip to next video
           isLoading.value = false;
         }
       });
@@ -137,21 +134,16 @@ class VideoPlayerController extends GetxController {
 
   void onPageChanged(int index) {
     if (index != currentIndex.value) {
-      // Dispose previous player first
       disposeCurrentPlayer();
 
-      // Update current index
       currentIndex.value = index;
 
-      // Reset loading states
       isLoading.value = true;
       isPlayerInitialized.value = false;
       isPlaying.value = false;
 
-      // Initialize new player with a small delay to ensure proper cleanup
       Future.delayed(Duration(milliseconds: 100), () {
         if (currentIndex.value == index) {
-          // Check if still on same page
           initializePlayer();
         }
       });

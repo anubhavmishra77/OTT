@@ -62,7 +62,6 @@ class VideoPlayerPageFull extends GetView<VideoPlayerController> {
       color: Colors.black,
       child: Stack(
         children: [
-          // Full Screen Video Player
           Positioned.fill(
             child: Obx(() {
               if (!isCurrentPage) {
@@ -104,13 +103,11 @@ class VideoPlayerPageFull extends GetView<VideoPlayerController> {
             }),
           ),
 
-          // Full Screen Tap Area for Play/Pause
           if (isCurrentPage)
             Positioned.fill(
               child: _buildPlayPauseOverlay(context),
             ),
 
-          // Back Button
           Positioned(
             top: 50,
             left: 16,
@@ -126,14 +123,12 @@ class VideoPlayerPageFull extends GetView<VideoPlayerController> {
             ),
           ),
 
-          // Video Controls (Right Side)
           Positioned(
             bottom: 100,
             right: 16,
             child: VideoControlsFull(),
           ),
 
-          // Video Info (Bottom Left)
           Positioned(
             bottom: 100,
             left: 16,
@@ -194,7 +189,6 @@ class VideoControlsFull extends GetView<VideoPlayerController> {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        // Previous video button
         Container(
           decoration: BoxDecoration(
             color: Colors.black54,
@@ -213,7 +207,6 @@ class VideoControlsFull extends GetView<VideoPlayerController> {
         ),
         SizedBox(height: 20),
 
-        // Next video button
         Container(
           decoration: BoxDecoration(
             color: Colors.black54,
@@ -233,7 +226,6 @@ class VideoControlsFull extends GetView<VideoPlayerController> {
         ),
         SizedBox(height: 20),
 
-        // Share button
         Container(
           decoration: BoxDecoration(
             color: Colors.black54,
@@ -257,7 +249,6 @@ class VideoControlsFull extends GetView<VideoPlayerController> {
         ),
         SizedBox(height: 20),
 
-        // Favorite button
         Container(
           decoration: BoxDecoration(
             color: Colors.black54,

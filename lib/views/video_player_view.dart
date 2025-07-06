@@ -86,7 +86,6 @@ class VideoPlayerPage extends GetView<VideoPlayerController> {
       color: Colors.black,
       child: Stack(
         children: [
-          // Video Player - Full Screen
           if (isCurrentPage)
             Positioned.fill(
               child: _buildVideoPlayer(context),
@@ -94,13 +93,11 @@ class VideoPlayerPage extends GetView<VideoPlayerController> {
           else
             Container(color: Colors.black),
 
-          // Full Screen Tap Area for Play/Pause
           if (isCurrentPage)
             Positioned.fill(
               child: _buildPlayPauseOverlay(context),
             ),
 
-          // Video Info Overlay
           Positioned(
             bottom: 120,
             left: 16,
@@ -274,7 +271,6 @@ class VideoControls extends GetView<VideoPlayerController> {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        // Previous video button
         Container(
           decoration: BoxDecoration(
             color: Colors.black54,
@@ -292,7 +288,6 @@ class VideoControls extends GetView<VideoPlayerController> {
               )),
         ),
         SizedBox(height: 16),
-        // Next video button
         Container(
           decoration: BoxDecoration(
             color: Colors.black54,
@@ -311,7 +306,6 @@ class VideoControls extends GetView<VideoPlayerController> {
               )),
         ),
         SizedBox(height: 16),
-        // Share button
         Container(
           decoration: BoxDecoration(
             color: Colors.black54,
@@ -334,7 +328,6 @@ class VideoControls extends GetView<VideoPlayerController> {
           ),
         ),
         SizedBox(height: 16),
-        // Favorite button
         Container(
           decoration: BoxDecoration(
             color: Colors.black54,
