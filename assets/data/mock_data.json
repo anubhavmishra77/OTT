@@ -1,0 +1,196 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Trending Now",
+      "videos": [
+        {
+          "id": 1,
+          "title": "The Crown",
+          "description": "A biographical drama about the reign of Queen Elizabeth II.",
+          "thumbnail": "https://picsum.photos/300/450?random=1",
+          "videoUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "duration": "55 min",
+          "rating": 8.7
+        },
+        {
+          "id": 2,
+          "title": "Stranger Things",
+          "description": "A group of kids uncover supernatural mysteries in their small town.",
+          "thumbnail": "https://picsum.photos/300/450?random=2",
+          "videoUrl": "https://ireplay.tv/test/blender.m3u8",
+          "duration": "52 min",
+          "rating": 8.9
+        },
+        {
+          "id": 3,
+          "title": "The Witcher",
+          "description": "A monster hunter navigates a world of magic and mystery.",
+          "thumbnail": "https://picsum.photos/300/450?random=3",
+          "videoUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
+          "duration": "60 min",
+          "rating": 8.2
+        },
+        {
+          "id": 4,
+          "title": "Money Heist",
+          "description": "A group of robbers execute the perfect heist at the Royal Mint of Spain.",
+          "thumbnail": "https://picsum.photos/300/450?random=4",
+          "videoUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
+          "duration": "45 min",
+          "rating": 8.5
+        },
+        {
+          "id": 5,
+          "title": "Dark",
+          "description": "A time-traveling mystery that spans multiple generations.",
+          "thumbnail": "https://picsum.photos/300/450?random=5",
+          "videoUrl": "https://stream-akamai.castr.com/5b9352dbda7b8c769937e459/live_2361c920455111ea85db6911fe397b9e/index.fmp4.m3u8",
+          "duration": "50 min",
+          "rating": 8.8
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Action & Adventure",
+      "videos": [
+        {
+          "id": 6,
+          "title": "Vikings",
+          "description": "The epic saga of Ragnar Lothbrok and his Viking clan.",
+          "thumbnail": "https://picsum.photos/300/450?random=6",
+          "videoUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8",
+          "duration": "48 min",
+          "rating": 8.6
+        },
+        {
+          "id": 7,
+          "title": "The Mandalorian",
+          "description": "A lone bounty hunter travels the outer reaches of the galaxy.",
+          "thumbnail": "https://picsum.photos/300/450?random=7",
+          "videoUrl": "https://stream-fastly.castr.com/5b9352dbda7b8c769937e459/live_2361c920455111ea85db6911fe397b9e/index.fmp4.m3u8",
+          "duration": "40 min",
+          "rating": 8.7
+        },
+        {
+          "id": 8,
+          "title": "Ozark",
+          "description": "A financial advisor launders money for a Mexican cartel.",
+          "thumbnail": "https://picsum.photos/300/450?random=8",
+          "videoUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
+          "duration": "55 min",
+          "rating": 8.4
+        },
+        {
+          "id": 9,
+          "title": "Narcos",
+          "description": "The rise and fall of Colombian drug cartels.",
+          "thumbnail": "https://picsum.photos/300/450?random=9",
+          "videoUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "duration": "50 min",
+          "rating": 8.8
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Comedy",
+      "videos": [
+        {
+          "id": 10,
+          "title": "The Office",
+          "description": "A mockumentary about office life in Scranton, Pennsylvania.",
+          "thumbnail": "https://picsum.photos/300/450?random=10",
+          "videoUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
+          "duration": "22 min",
+          "rating": 9.0
+        },
+        {
+          "id": 11,
+          "title": "Brooklyn Nine-Nine",
+          "description": "A comedy about detectives in a Brooklyn police precinct.",
+          "thumbnail": "https://picsum.photos/300/450?random=11",
+          "videoUrl": "https://ireplay.tv/test/blender.m3u8",
+          "duration": "22 min",
+          "rating": 8.4
+        },
+        {
+          "id": 12,
+          "title": "Friends",
+          "description": "Six friends navigate life and love in New York City.",
+          "thumbnail": "https://picsum.photos/300/450?random=12",
+          "videoUrl": "https://stream-akamai.castr.com/5b9352dbda7b8c769937e459/live_2361c920455111ea85db6911fe397b9e/index.fmp4.m3u8",
+          "duration": "25 min",
+          "rating": 8.9
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Drama",
+      "videos": [
+        {
+          "id": 13,
+          "title": "Breaking Bad",
+          "description": "A high school chemistry teacher turns to manufacturing drugs.",
+          "thumbnail": "https://picsum.photos/300/450?random=13",
+          "videoUrl": "https://stream-fastly.castr.com/5b9352dbda7b8c769937e459/live_2361c920455111ea85db6911fe397b9e/index.fmp4.m3u8",
+          "duration": "47 min",
+          "rating": 9.5
+        },
+        {
+          "id": 14,
+          "title": "Better Call Saul",
+          "description": "The transformation of Jimmy McGill into criminal lawyer Saul Goodman.",
+          "thumbnail": "https://picsum.photos/300/450?random=14",
+          "videoUrl": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8",
+          "duration": "50 min",
+          "rating": 8.8
+        },
+        {
+          "id": 15,
+          "title": "The Walking Dead",
+          "description": "Survivors navigate a post-apocalyptic world overrun by zombies.",
+          "thumbnail": "https://picsum.photos/300/450?random=15",
+          "videoUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
+          "duration": "44 min",
+          "rating": 8.2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sci-Fi & Fantasy",
+      "videos": [
+        {
+          "id": 16,
+          "title": "Game of Thrones",
+          "description": "Noble families fight for control of the Iron Throne.",
+          "thumbnail": "https://picsum.photos/300/450?random=16",
+          "videoUrl": "https://ireplay.tv/test/blender.m3u8",
+          "duration": "60 min",
+          "rating": 9.3
+        },
+        {
+          "id": 17,
+          "title": "Westworld",
+          "description": "AI hosts in a futuristic theme park develop consciousness.",
+          "thumbnail": "https://picsum.photos/300/450?random=17",
+          "videoUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "duration": "58 min",
+          "rating": 8.6
+        },
+        {
+          "id": 18,
+          "title": "The Expanse",
+          "description": "Humanity has colonized the solar system in this space opera.",
+          "thumbnail": "https://picsum.photos/300/450?random=18",
+          "videoUrl": "https://stream-akamai.castr.com/5b9352dbda7b8c769937e459/live_2361c920455111ea85db6911fe397b9e/index.fmp4.m3u8",
+          "duration": "45 min",
+          "rating": 8.5
+        }
+      ]
+    }
+  ]
+} 
